@@ -365,3 +365,27 @@ body:has(.page-section:target) .page-section:first-child:not(:target) { display:
   height: 23px;
   object-fit: contain;
 }
+.media-placeholder img {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.canvas-placeholder {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.canvas-placeholder img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
